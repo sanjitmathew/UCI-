@@ -35,3 +35,7 @@
   
   doc <- "total_acc_z.txt"
   findmean(doc)
+a <- read.table("y2.txt",fill = TRUE)
+b <- read.table("body_acc_x_test.txt")
+c <- cbind(a,b)
+write.table(c,file="result.txt")
