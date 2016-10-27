@@ -4,7 +4,12 @@ output: html_document
 
 ## R Markdown
 
-  Doc - the destination file
-  rdata - the data read
-  wdata - the data to be written
-  wdoc - file to which data has to be written
+#Codebook
+    This codebook contains the information about the variables used in the program. Their extended description is given here.
+    
+  Doc - the destination file.<br>
+  rdata - the data read.<br>
+  wdata - the data to be written.<br>
+  wdoc - file to which data has to be written.<br>
+  mrg - merge <br>
+  findMean - finds the mean and standard deviation<br>
